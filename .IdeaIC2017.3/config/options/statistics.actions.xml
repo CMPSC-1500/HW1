@@ -1,0 +1,30 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="Add braces to  else  statement" count="1" />
+      <entry action="ChooseRunConfiguration" count="2" />
+      <entry action="EditorBackSpace" count="239" />
+      <entry action="EditorChooseLookupItem" count="11" />
+      <entry action="EditorCopy" count="7" />
+      <entry action="EditorDown" count="7" />
+      <entry action="EditorEnter" count="52" />
+      <entry action="EditorEscape" count="1" />
+      <entry action="EditorLeft" count="63" />
+      <entry action="EditorPaste" count="10" />
+      <entry action="EditorRight" count="54" />
+      <entry action="EditorUp" count="4" />
+      <entry action="Exit" count="1" />
+      <entry action="HideAllWindows" count="2" />
+      <entry action="NewClass" count="2" />
+      <entry action="NewProject" count="1" />
+      <entry action="Remove braces from  else  statement" count="1" />
+      <entry action="Run" count="33" />
+      <entry action="Run  ThisIsCamelClass.main() " count="1" />
+      <entry action="SaveAll" count="4" />
+      <entry action="ShowIntentionActions" count="1" />
+      <entry action="ShowPopupMenu" count="1" />
+      <entry action="Stop" count="4" />
+      <entry action="ToggleLineBreakpoint" count="2" />
+    </counts>
+  </component>
+</application>

@@ -1,0 +1,980 @@
+2018-02-07 19:08:13,252 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-02-07 19:08:13,267 [     15]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-173.4127.27, 25 Dec 2017 11:19) 
+2018-02-07 19:08:13,267 [     15]   INFO -        #com.intellij.idea.Main - OS: Windows 7 (6.1, x86) 
+2018-02-07 19:08:13,267 [     15]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1024-b8 (JetBrains s.r.o) 
+2018-02-07 19:08:13,267 [     15]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK Server VM) 
+2018-02-07 19:08:13,283 [     31]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\idea.exe.vmoptions -Xbootclasspath/a:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\lib\boot.jar -Didea.platform.prefix=Idea -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=IdeaIC2017.3 -XX:ErrorFile=C:\Users\dmonroe\java_error_in_idea_%p.log -XX:HeapDumpPath=C:\Users\dmonroe\java_error_in_idea.hprof 
+2018-02-07 19:08:13,283 [     31]   INFO -        #com.intellij.idea.Main - ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1f87d8c[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0] 
+2018-02-07 19:08:13,283 [     31]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\jre32\lib\ext: [access-bridge-32.jar, access-bridge.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2018-02-07 19:08:13,283 [     31]   INFO -        #com.intellij.idea.Main - JNU charset: Cp1252 
+2018-02-07 19:08:13,376 [    124]   INFO -        #com.intellij.idea.Main - JNA library (32-bit) loaded in 93 ms 
+2018-02-07 19:08:13,376 [    124]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2018-02-07 19:08:16,543 [   3291]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-02-07 19:08:55,305 [  42053]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-02-07 19:08:55,805 [  42553]   INFO - llij.ide.plugins.PluginManager - 33 plugins initialized in 609 ms 
+2018-02-07 19:08:55,820 [  42568]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.2.3), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (173.4127.27), Eclipse Integration (3.0), EditorConfig (173.4127.27), Git Integration (8.1), GitHub (173.4127.27), Gradle (173.4127.27), Groovy (9.0), I18n for Java (173.4127.27), IDEA CORE (173.4127.27), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (173.4127.27), Java Stream Debugger (173.4127.27), JavaFX (1.0), Kotlin (1.2.10-release-IJ2017.3-1), Maven Integration (173.4127.27), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (173.4127.27), Settings Repository (173.4127.27), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (173.4127.27), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (173.4127.27) 
+2018-02-07 19:09:04,182 [  50930]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: 'C:\Users\dmonroe\.IdeaIC2017.3\system\caches\names.dat' does not exist 
+2018-02-07 19:09:04,197 [  50945]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=474 
+2018-02-07 19:09:04,322 [  51070]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\fsnotifier.exe 
+2018-02-07 19:09:04,338 [  51086]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-02-07 19:09:06,069 [  52817]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-02-07 19:09:06,069 [  52817]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-02-07 19:09:06,304 [  53052]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@1c81e64 
+2018-02-07 19:09:06,545 [  53293]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-02-07 19:09:07,023 [  53771]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-02-07 19:09:07,038 [  53786]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-02-07 19:09:07,639 [  54387]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:558 
+2018-02-07 19:09:07,674 [  54422]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:25 
+2018-02-07 19:09:08,082 [  54830]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:416 
+2018-02-07 19:09:08,097 [  54845]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-02-07 19:09:08,893 [  55641]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:KJSM,HTML,XML,kotlin_builtins,Groovy,JAVA,Properties,Kotlin,CLASS 
+2018-02-07 19:09:09,897 [  56645]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:54)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,897 [  56645]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:55)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:56)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:57)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:58)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:59)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:68)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:60)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:497)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:119)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$9(ApplicationImpl.java:447)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:454)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:103)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:406)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:392)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:203)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:346)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-07 19:09:09,913 [  56661]   INFO - plication.impl.ApplicationImpl - 86 application components initialized in 14717ms 
+2018-02-07 19:09:09,962 [  56710]   INFO - .intellij.idea.IdeaApplication - App initialization took 114567 ms 
+2018-02-07 19:09:11,464 [  58212]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-02-07 19:09:11,761 [  58509]   INFO - j.ide.ui.OptionsTopHitProvider - 1464 ms spent to cache options in application 
+2018-02-07 19:09:13,196 [  59944]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-02-07 19:09:13,321 [  60069]   INFO - pl$FileIndexDataInitialization - Initialization done:5647 
+2018-02-07 19:09:13,430 [  60178]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2018-02-07 19:09:13,726 [  60474]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2018-02-07 19:09:13,929 [  60677]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2018-02-07 19:09:14,085 [  60833]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2018-02-07 19:09:14,241 [  60989]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2018-02-07 19:09:14,491 [  61239]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2018-02-07 19:09:14,678 [  61426]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2018-02-07 19:09:15,021 [  61769]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2018-02-07 19:09:15,161 [  61909]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2018-02-07 19:09:15,302 [  62050]   WARN - dea.updater.SdkComponentSource - File C:\Users\dmonroe\.android\repositories.cfg could not be loaded. 
+2018-02-07 19:09:15,817 [  62565]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@28ccb3 
+2018-02-07 19:09:16,300 [  63048]   INFO - exImpl$StubIndexInitialization - Initialization done:2983 
+2018-02-07 19:09:17,704 [  64452]   INFO - ellij.project.impl.ProjectImpl - 20 project components initialized in 359 ms 
+2018-02-07 19:09:17,954 [  64702]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@b4dde9 
+2018-02-07 19:09:18,671 [  65419]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@1f29dd7 
+2018-02-07 19:13:02,548 [ 289296]   INFO - ellij.project.impl.ProjectImpl - 149 project components initialized in 1966 ms 
+2018-02-07 19:13:02,548 [ 289296]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2018-02-07 19:13:03,250 [ 289998]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-02-07 19:13:03,958 [ 290706]   INFO - CompilerBackwardReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException 
+2018-02-07 19:13:04,333 [ 291081]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 281ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-07 19:13:04,738 [ 291486]   INFO - tartup.impl.StartupManagerImpl - C:/Users/dmonroe/IdeaProjects/Project Uno HW1/.idea case-sensitivity: expected=false actual=false 
+2018-02-07 19:13:04,770 [ 291518]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-02-07 19:13:04,957 [ 291705]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-07 19:13:04,988 [ 291736]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4486 ms 
+2018-02-07 19:13:05,425 [ 292173]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-02-07 19:13:05,425 [ 292173]   INFO -       ScriptTemplatesProviders - Templates provider KotlinCompilerScriptTemplatesSettings is invalid:  
+2018-02-07 19:13:05,472 [ 292220]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-07 19:13:05,472 [ 292220]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-07 19:13:05,472 [ 292220]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Script Kotlin is invalid: Unable to get Gradle home directory 
+2018-02-07 19:13:05,472 [ 292220]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [kotlin.script.templates.standard.ScriptTemplateWithArgs] using cp:  
+2018-02-07 19:13:10,526 [ 297274]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 5569ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-07 19:13:10,542 [ 297290]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 42655 files to update 
+2018-02-07 19:13:49,530 [ 336278]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 38988ms; general responsiveness: 1/34 sluggish; EDT responsiveness: 5/38 sluggish 
+2018-02-07 19:13:49,702 [ 336450]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2/7/2018 7:08 PM) 
+2018-02-07 19:13:49,702 [ 336450]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2018-02-07 19:13:49,702 [ 336450]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 156ms on UI thread 
+2018-02-07 19:13:50,201 [ 336949]   INFO - j.ide.ui.OptionsTopHitProvider - 312 ms spent to cache options in project 
+2018-02-07 19:13:50,732 [ 337480]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2018-02-07 19:17:10,728 [ 537476]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-02-07 19:19:13,557 [ 660305]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-07 19:19:14,996 [ 661744]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:19:15,042 [ 661790]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:19:15,042 [ 661790]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:19:15,042 [ 661790]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 19:19:19,098 [ 665846]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-02-07 19:19:19,130 [ 665878]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 1; warnings: 0 took 5525 ms: 0 min 5sec 
+2018-02-07 19:19:19,145 [ 665893]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-07 19:19:19,332 [ 666080]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-07 19:19:20,029 [ 666777]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:19:20,138 [ 666886]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:19:20,138 [ 666886]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:19:20,138 [ 666886]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 19:19:20,778 [ 667526]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1633ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-07 19:21:56,994 [ 823742]   INFO - plication.impl.ApplicationImpl - Received external Windows command line: current directory H:\, command line "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\idea.exe" "H:\ThreeNplus1.class" 
+2018-02-07 19:21:56,994 [ 823742]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2018-02-07 19:21:57,010 [ 823758]   INFO - ellij.ide.CommandLineProcessor - Dir: H:\ 
+2018-02-07 19:21:57,010 [ 823758]   INFO - ellij.ide.CommandLineProcessor - "H:\ThreeNplus1.class" 
+2018-02-07 19:21:57,010 [ 823758]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2018-02-07 19:46:43,482 [2310230]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 47 ms 
+2018-02-07 19:46:46,041 [2312789]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-07 19:46:46,605 [2313353]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:46:46,652 [2313400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:46:46,652 [2313400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:46:46,652 [2313400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 19:46:48,618 [2315366]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 2; warnings: 0 took 2593 ms: 0 min 2sec 
+2018-02-07 19:46:48,649 [2315397]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-07 19:46:49,089 [2315837]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:46:49,135 [2315883]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:46:49,135 [2315883]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:46:49,135 [2315883]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 19:49:44,477 [2491225]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-07 19:49:44,477 [2491225]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-07 19:49:46,037 [2492785]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1576 ms: 0 min 1sec 
+2018-02-07 19:49:46,052 [2492800]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-07 19:49:46,729 [2493477]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:49:46,885 [2493633]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:49:46,885 [2493633]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:49:46,885 [2493633]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 19:51:15,311 [2582059]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-07 19:51:15,311 [2582059]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-07 19:51:16,590 [2583338]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1279 ms: 0 min 1sec 
+2018-02-07 19:51:16,606 [2583354]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-07 19:51:17,078 [2583826]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-07 19:51:17,125 [2583873]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-07 19:51:17,125 [2583873]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-07 19:51:17,125 [2583873]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-07 20:00:47,252 [3154000]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-02-07 20:00:47,252 [3154000]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-02-07 20:00:47,252 [3154000]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-02-07 20:00:47,642 [3154390]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-02-07 20:00:47,642 [3154390]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-02-07 20:00:47,658 [3154406]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 320 auto-detected files
+Elapsed time on auto-detect: 765 ms 
+2018-02-07 20:00:47,658 [3154406]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-02-07 20:00:47,674 [3154422]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-02-07 20:00:47,727 [3154475]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-02-07 20:00:47,731 [3154479]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-02-07 20:00:47,735 [3154483]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-02-12 18:23:02,553 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-02-12 18:23:02,584 [     31]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-02-12 18:23:02,584 [     31]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2018-02-12 18:23:02,615 [     62]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-173.4127.27, 25 Dec 2017 11:02) 
+2018-02-12 18:23:02,615 [     62]   INFO -        #com.intellij.idea.Main - OS: Windows 7 (6.1, x86) 
+2018-02-12 18:23:02,615 [     62]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1024-b8 (JetBrains s.r.o) 
+2018-02-12 18:23:02,615 [     62]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK Server VM) 
+2018-02-12 18:23:02,646 [     93]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\idea.exe.vmoptions -Xbootclasspath/a:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\lib\boot.jar -Didea.platform.prefix=Idea -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=IdeaIC2017.3 -XX:ErrorFile=C:\Users\dmonroe\java_error_in_idea_%p.log -XX:HeapDumpPath=C:\Users\dmonroe\java_error_in_idea.hprof 
+2018-02-12 18:23:02,646 [     93]   INFO -        #com.intellij.idea.Main - ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@12963f2[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0] 
+2018-02-12 18:23:02,646 [     93]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\jre32\lib\ext: [access-bridge-32.jar, access-bridge.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2018-02-12 18:23:02,646 [     93]   INFO -        #com.intellij.idea.Main - JNU charset: Cp1252 
+2018-02-12 18:23:02,724 [    171]   INFO -        #com.intellij.idea.Main - JNA library (32-bit) loaded in 78 ms 
+2018-02-12 18:23:02,755 [    202]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2018-02-12 18:23:04,721 [   2168]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-02-12 18:23:05,829 [   3276]   INFO - llij.ide.plugins.PluginManager - 33 plugins initialized in 1826 ms 
+2018-02-12 18:23:05,829 [   3276]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.2.3), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (173.4127.27), Eclipse Integration (3.0), EditorConfig (173.4127.27), Git Integration (8.1), GitHub (173.4127.27), Gradle (173.4127.27), Groovy (9.0), I18n for Java (173.4127.27), IDEA CORE (173.4127.27), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (173.4127.27), Java Stream Debugger (173.4127.27), JavaFX (1.0), Kotlin (1.2.10-release-IJ2017.3-1), Maven Integration (173.4127.27), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (173.4127.27), Settings Repository (173.4127.27), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (173.4127.27), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (173.4127.27) 
+2018-02-12 18:23:13,753 [  11200]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=474 
+2018-02-12 18:23:13,956 [  11403]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\fsnotifier.exe 
+2018-02-12 18:23:14,018 [  11465]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-02-12 18:23:16,343 [  13790]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@df4e15 
+2018-02-12 18:23:16,619 [  14066]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-02-12 18:23:17,077 [  14524]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-02-12 18:23:17,150 [  14597]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-02-12 18:23:17,520 [  14967]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:306 
+2018-02-12 18:23:17,536 [  14983]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:9 
+2018-02-12 18:23:17,591 [  15038]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:28 
+2018-02-12 18:23:17,591 [  15038]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-02-12 18:23:17,958 [  15405]   INFO - plication.impl.ApplicationImpl - 86 application components initialized in 13955ms 
+2018-02-12 18:23:17,991 [  15438]   INFO - .intellij.idea.IdeaApplication - App initialization took 19503 ms 
+2018-02-12 18:23:19,945 [  17392]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-02-12 18:23:20,857 [  18304]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-02-12 18:23:21,304 [  18751]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-02-12 18:23:21,491 [  18938]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2018-02-12 18:23:21,712 [  19159]   INFO - pl$FileIndexDataInitialization - Initialization done:4184 
+2018-02-12 18:23:21,805 [  19252]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2018-02-12 18:23:21,992 [  19439]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2018-02-12 18:23:22,164 [  19611]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2018-02-12 18:23:22,359 [  19806]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2018-02-12 18:23:22,570 [  20017]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2018-02-12 18:23:22,741 [  20188]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2018-02-12 18:23:23,147 [  20594]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2018-02-12 18:23:23,319 [  20766]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2018-02-12 18:23:23,491 [  20938]   WARN - dea.updater.SdkComponentSource - File C:\Users\dmonroe\.android\repositories.cfg could not be loaded. 
+2018-02-12 18:23:23,632 [  21079]   INFO - exImpl$StubIndexInitialization - Initialization done:1908 
+2018-02-12 18:23:24,209 [  21656]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@a62cb 
+2018-02-12 18:23:24,848 [  22295]   INFO - ellij.project.impl.ProjectImpl - 149 project components initialized in 5499 ms 
+2018-02-12 18:23:25,067 [  22514]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 219 ms 
+2018-02-12 18:23:25,894 [  23341]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-02-12 18:23:27,173 [  24620]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2018-02-12 18:23:27,407 [  24854]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@e13139 
+2018-02-12 18:23:27,455 [  24902]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 142ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-12 18:23:27,752 [  25199]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-02-12 18:23:27,752 [  25199]   INFO -       ScriptTemplatesProviders - Templates provider KotlinCompilerScriptTemplatesSettings is invalid:  
+2018-02-12 18:23:27,830 [  25277]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-12 18:23:27,830 [  25277]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-12 18:23:27,830 [  25277]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Script Kotlin is invalid: Unable to get Gradle home directory 
+2018-02-12 18:23:27,830 [  25277]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [kotlin.script.templates.standard.ScriptTemplateWithArgs] using cp:  
+2018-02-12 18:23:28,048 [  25495]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-02-12 18:23:28,263 [  25710]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@1cbe1d8 
+2018-02-12 18:23:29,230 [  26677]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 2182ms under project opening modal progress 
+2018-02-12 18:23:29,464 [  26911]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 234ms under project opening modal progress 
+2018-02-12 18:23:29,714 [  27161]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2760ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 1/3 very slow 
+2018-02-12 18:23:30,213 [  27660]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:23:30,354 [  27801]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:23:30,369 [  27816]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:23:30,369 [  27816]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:23:30,822 [  28269]   INFO - j.ide.ui.OptionsTopHitProvider - 628 ms spent to cache options in application 
+2018-02-12 18:23:30,978 [  28425]   INFO - ellij.project.impl.ProjectImpl - 20 project components initialized in 32 ms 
+2018-02-12 18:23:31,882 [  29329]   INFO - tartup.impl.StartupManagerImpl - C:/Users/dmonroe/IdeaProjects/Project Uno HW1/.idea case-sensitivity: expected=false actual=false 
+2018-02-12 18:23:31,960 [  29407]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-02-12 18:23:33,427 [  30874]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 14368 ms 
+2018-02-12 18:23:34,020 [  31467]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 6565ms; general responsiveness: ok; EDT responsiveness: 2/7 sluggish, 2/7 very slow 
+2018-02-12 18:23:34,020 [  31467]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2018-02-12 18:23:34,316 [  31763]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 296ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-12 18:23:34,456 [  31903]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2018-02-12 18:23:34,456 [  31903]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 109ms on UI thread 
+2018-02-12 18:23:34,915 [  32362]   INFO - j.ide.ui.OptionsTopHitProvider - 256 ms spent to cache options in project 
+2018-02-12 18:23:35,539 [  32986]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:23:35,648 [  33095]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:23:35,648 [  33095]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:23:35,648 [  33095]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:27:42,833 [ 280280]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-12 18:27:42,942 [ 280389]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-12 18:27:45,719 [ 283166]   INFO - .server.BuildMessageDispatcher - An existing connection was forcibly closed by the remote host 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-12 18:27:45,750 [ 283197]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2933 ms: 0 min 2sec 
+2018-02-12 18:27:45,797 [ 283244]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-12 18:27:46,428 [ 283875]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:27:46,506 [ 283953]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:27:46,506 [ 283953]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:27:46,506 [ 283953]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:31:22,507 [ 499954]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-12 18:31:22,508 [ 499955]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-12 18:31:24,180 [ 501627]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1678 ms: 0 min 1sec 
+2018-02-12 18:31:24,207 [ 501654]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-12 18:31:24,798 [ 502245]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:31:24,844 [ 502291]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:31:24,844 [ 502291]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:31:24,844 [ 502291]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:46:20,258 [1397705]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-12 18:46:20,261 [1397708]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-12 18:46:22,343 [1399790]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2098 ms: 0 min 2sec 
+2018-02-12 18:46:22,356 [1399803]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-12 18:46:22,988 [1400435]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:46:23,073 [1400520]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:46:23,073 [1400520]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:46:23,073 [1400520]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:46:50,133 [1427580]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-12 18:46:50,135 [1427582]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-12 18:46:51,465 [1428912]   INFO - .server.BuildMessageDispatcher - An existing connection was forcibly closed by the remote host 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-12 18:46:51,491 [1428938]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1366 ms: 0 min 1sec 
+2018-02-12 18:46:51,528 [1428975]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-12 18:46:52,092 [1429539]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:46:52,137 [1429584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:46:52,137 [1429584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:46:52,137 [1429584]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:57:15,925 [2053372]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-12 18:57:15,941 [2053388]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-12 18:57:17,369 [2054816]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1444 ms: 0 min 1sec 
+2018-02-12 18:57:17,401 [2054848]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-12 18:57:17,950 [2055397]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-12 18:57:17,996 [2055443]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-12 18:57:17,996 [2055443]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-12 18:57:17,996 [2055443]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-12 18:57:35,747 [2073194]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-02-12 18:57:35,747 [2073194]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-02-12 18:57:35,747 [2073194]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-02-12 18:57:35,803 [2073250]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-02-12 18:57:35,804 [2073251]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-02-12 18:57:35,838 [2073285]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-02-12 18:57:35,841 [2073288]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-02-12 18:57:35,843 [2073290]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-02-12 18:57:35,899 [2073346]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-02-12 18:57:35,901 [2073348]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-02-12 18:57:35,904 [2073351]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-02-14 18:03:17,798 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-02-14 18:03:17,813 [     15]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2018-02-14 18:03:17,813 [     15]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-173.4127.27, 25 Dec 2017 11:17) 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - OS: Windows 7 (6.1, x86) 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-1024-b8 (JetBrains s.r.o) 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b8 (OpenJDK Server VM) 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\idea.exe.vmoptions -Xbootclasspath/a:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\lib\boot.jar -Didea.platform.prefix=Idea -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=IdeaIC2017.3 -XX:ErrorFile=C:\Users\dmonroe\java_error_in_idea_%p.log -XX:HeapDumpPath=C:\Users\dmonroe\java_error_in_idea.hprof 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@a2df4a[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0] 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\jre32\lib\ext: [access-bridge-32.jar, access-bridge.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2018-02-14 18:03:17,845 [     47]   INFO -        #com.intellij.idea.Main - JNU charset: Cp1252 
+2018-02-14 18:03:17,923 [    125]   INFO -        #com.intellij.idea.Main - JNA library (32-bit) loaded in 78 ms 
+2018-02-14 18:03:17,938 [    140]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2018-02-14 18:03:19,810 [   2012]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-02-14 18:03:20,887 [   3089]   INFO - llij.ide.plugins.PluginManager - 33 plugins initialized in 1763 ms 
+2018-02-14 18:03:20,902 [   3104]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.2.3), Ant Support (1.0), Bytecode Viewer (0.1), CVS Integration (11), Copyright (8.1), Coverage (173.4127.27), Eclipse Integration (3.0), EditorConfig (173.4127.27), Git Integration (8.1), GitHub (173.4127.27), Gradle (173.4127.27), Groovy (9.0), I18n for Java (173.4127.27), IDEA CORE (173.4127.27), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (173.4127.27), Java Stream Debugger (173.4127.27), JavaFX (1.0), Kotlin (1.2.10-release-IJ2017.3-1), Maven Integration (173.4127.27), Mercurial Integration (10.0), Plugin DevKit (1.0), Properties Support (173.4127.27), Settings Repository (173.4127.27), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), UI Designer (173.4127.27), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (173.4127.27) 
+2018-02-14 18:03:28,765 [  10967]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=474 
+2018-02-14 18:03:28,936 [  11138]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\fsnotifier.exe 
+2018-02-14 18:03:28,967 [  11169]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-02-14 18:03:31,215 [  13417]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.OptionsTopHitProvider$Activity@8cf8bb 
+2018-02-14 18:03:31,475 [  13677]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-02-14 18:03:31,911 [  14113]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-02-14 18:03:31,941 [  14143]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-02-14 18:03:32,321 [  14523]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:305 
+2018-02-14 18:03:32,338 [  14540]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2018-02-14 18:03:32,421 [  14623]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:64 
+2018-02-14 18:03:32,422 [  14624]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-02-14 18:03:32,808 [  15010]   INFO - plication.impl.ApplicationImpl - 86 application components initialized in 13684ms 
+2018-02-14 18:03:32,850 [  15052]   INFO - .intellij.idea.IdeaApplication - App initialization took 18690 ms 
+2018-02-14 18:03:34,710 [  16912]   WARN - dea.updater.SdkComponentSource - File C:\Users\dmonroe\.android\repositories.cfg could not be loaded. 
+2018-02-14 18:03:34,710 [  16912]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-02-14 18:03:35,550 [  17752]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2018-02-14 18:03:35,693 [  17895]   INFO - pl$FileIndexDataInitialization - Initialization done:3365 
+2018-02-14 18:03:36,224 [  18426]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-02-14 18:03:36,381 [  18583]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2018-02-14 18:03:36,787 [  18989]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2018-02-14 18:03:37,036 [  19238]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2018-02-14 18:03:37,208 [  19410]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2018-02-14 18:03:37,395 [  19597]   INFO - exImpl$StubIndexInitialization - Initialization done:1700 
+2018-02-14 18:03:37,457 [  19659]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2018-02-14 18:03:37,738 [  19940]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2018-02-14 18:03:37,925 [  20127]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2018-02-14 18:03:38,434 [  20636]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2018-02-14 18:03:38,621 [  20823]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2018-02-14 18:03:40,369 [  22571]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@f9978f 
+2018-02-14 18:03:40,416 [  22618]   INFO - ellij.project.impl.ProjectImpl - 149 project components initialized in 6418 ms 
+2018-02-14 18:03:40,681 [  22883]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 265 ms 
+2018-02-14 18:03:41,102 [  23304]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-02-14 18:03:43,021 [  25223]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2018-02-14 18:03:43,349 [  25551]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 125ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:03:43,879 [  26081]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-02-14 18:03:44,035 [  26237]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-02-14 18:03:44,051 [  26253]   INFO -       ScriptTemplatesProviders - Templates provider KotlinCompilerScriptTemplatesSettings is invalid:  
+2018-02-14 18:03:44,129 [  26331]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-14 18:03:44,129 [  26331]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-14 18:03:44,129 [  26331]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Script Kotlin is invalid: Unable to get Gradle home directory 
+2018-02-14 18:03:44,129 [  26331]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [kotlin.script.templates.standard.ScriptTemplateWithArgs] using cp:  
+2018-02-14 18:03:44,144 [  26346]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@505365 
+2018-02-14 18:03:45,333 [  27535]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 2358ms under project opening modal progress 
+2018-02-14 18:03:45,692 [  27894]   INFO - ellij.project.impl.ProjectImpl - 20 project components initialized in 47 ms 
+2018-02-14 18:03:45,707 [  27909]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 374ms under project opening modal progress 
+2018-02-14 18:03:45,879 [  28081]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 3092ms; general responsiveness: ok; EDT responsiveness: 2/3 sluggish 
+2018-02-14 18:03:46,316 [  28518]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@1dc12b 
+2018-02-14 18:03:46,331 [  28533]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:03:46,425 [  28627]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:03:46,425 [  28627]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:03:46,425 [  28627]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:03:48,125 [  30327]   INFO - j.ide.ui.OptionsTopHitProvider - 578 ms spent to cache options in application 
+2018-02-14 18:03:48,406 [  30608]   INFO - tartup.impl.StartupManagerImpl - C:/Users/dmonroe/IdeaProjects/Project Uno HW1/.idea case-sensitivity: expected=false actual=false 
+2018-02-14 18:03:48,578 [  30780]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-02-14 18:03:50,138 [  32340]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 16331 ms 
+2018-02-14 18:03:50,574 [  32776]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:03:51,189 [  33391]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 7840ms; general responsiveness: ok; EDT responsiveness: 5/8 sluggish, 1/8 very slow 
+2018-02-14 18:03:51,283 [  33485]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:03:51,361 [  33563]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:03:51,361 [  33563]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:03:51,361 [  33563]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:03:51,423 [  33625]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2018-02-14 18:03:51,423 [  33625]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 172ms on UI thread 
+2018-02-14 18:03:51,938 [  34140]   INFO - j.ide.ui.OptionsTopHitProvider - 359 ms spent to cache options in project 
+2018-02-14 18:15:34,137 [ 736339]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:15:34,231 [ 736433]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:15:36,883 [ 739085]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2762 ms: 0 min 2sec 
+2018-02-14 18:15:36,898 [ 739100]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:15:38,738 [ 740940]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:15:38,784 [ 740986]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:15:38,784 [ 740986]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:15:38,784 [ 740986]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:17:02,759 [ 824961]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:17:02,759 [ 824961]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:17:03,976 [ 826178]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 1; warnings: 0 took 1217 ms: 0 min 1sec 
+2018-02-14 18:17:03,992 [ 826194]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:17:04,512 [ 826714]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:17:04,559 [ 826761]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:17:04,559 [ 826761]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:17:04,559 [ 826761]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:17:16,088 [ 838290]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:17:16,088 [ 838290]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:17:17,133 [ 839335]   INFO - .server.BuildMessageDispatcher - An existing connection was forcibly closed by the remote host 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-14 18:17:17,148 [ 839350]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 1; warnings: 0 took 1076 ms: 0 min 1sec 
+2018-02-14 18:17:17,180 [ 839382]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:17:17,653 [ 839855]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:17:17,699 [ 839901]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:17:17,699 [ 839901]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:17:17,699 [ 839901]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:17:28,822 [ 851024]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:17:28,822 [ 851024]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:17:30,289 [ 852491]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1451 ms: 0 min 1sec 
+2018-02-14 18:17:30,304 [ 852506]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:17:30,835 [ 853037]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:17:30,866 [ 853068]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:17:30,882 [ 853084]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:17:30,882 [ 853084]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:17:46,357 [ 868559]   WARN - process.KillableProcessHandler - The pipe is being closed 
+java.io.IOException: The pipe is being closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.intellij.execution.process.KillableProcessHandler.destroyProcessImpl(KillableProcessHandler.java:118)
+	at com.intellij.execution.process.ProcessHandler$1.run(ProcessHandler.java:116)
+	at com.intellij.execution.process.ProcessHandler$TasksRunner.execute(ProcessHandler.java:272)
+	at com.intellij.execution.process.ProcessHandler.destroyProcess(ProcessHandler.java:111)
+	at com.intellij.execution.impl.ExecutionManagerImpl.stopProcess(ExecutionManagerImpl.java:234)
+	at com.intellij.execution.impl.ExecutionManagerImpl.stopProcess(ExecutionManagerImpl.java:212)
+	at com.intellij.execution.actions.StopAction.actionPerformed(StopAction.java:112)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:220)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:237)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:193)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:151)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:344)
+	at java.awt.Component.processEvent(Component.java:6306)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:646)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-14 18:17:46,856 [ 869058]   WARN - n.process.BaseOSProcessHandler - The pipe is being closed 
+java.io.IOException: The pipe is being closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at com.intellij.execution.process.BaseOSProcessHandler.closeStreams(BaseOSProcessHandler.java:243)
+	at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:131)
+	at com.intellij.execution.process.BaseOSProcessHandler.onOSProcessTerminated(BaseOSProcessHandler.java:192)
+	at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:89)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:155)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:140)
+	at com.intellij.execution.process.ProcessWaitFor$1.run(ProcessWaitFor.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-14 18:18:26,465 [ 908667]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:18:26,465 [ 908667]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:18:27,713 [ 909915]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:18:27,713 [ 909915]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1248 ms: 0 min 1sec 
+2018-02-14 18:18:28,262 [ 910464]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:18:28,309 [ 910511]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:18:28,309 [ 910511]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:18:28,309 [ 910511]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:18:43,472 [ 925674]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:18:43,472 [ 925674]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:18:43,643 [ 925845]   INFO - .server.BuildMessageDispatcher - An existing connection was forcibly closed by the remote host 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-14 18:18:43,675 [ 925877]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 219 ms: 0 min 0sec 
+2018-02-14 18:18:43,675 [ 925877]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:18:44,177 [ 926379]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:18:44,224 [ 926426]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:18:44,224 [ 926426]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:18:44,224 [ 926426]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:20:49,029 [1051231]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2018-02-14 18:20:49,123 [1051325]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:20:49,154 [1051356]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:20:59,341 [1061543]   INFO - ellij.project.impl.ProjectImpl - 149 project components initialized in 188 ms 
+2018-02-14 18:20:59,341 [1061543]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2018-02-14 18:21:02,632 [1064834]   INFO - CompilerBackwardReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException 
+2018-02-14 18:21:02,710 [1064912]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:21:02,866 [1065068]   INFO - tartup.impl.StartupManagerImpl - C:/Users/dmonroe/IdeaProjects/Classwork/.idea case-sensitivity: expected=false actual=false 
+2018-02-14 18:21:02,882 [1065084]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2018-02-14 18:21:03,069 [1065271]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:21:03,069 [1065271]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3925 ms 
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - Templates provider KotlinCompilerScriptTemplatesSettings is invalid:  
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Script Kotlin is invalid: Unable to get Gradle home directory 
+2018-02-14 18:21:03,069 [1065271]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [kotlin.script.templates.standard.ScriptTemplateWithArgs] using cp:  
+2018-02-14 18:21:03,100 [1065302]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 31ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-02-14 18:21:03,475 [1065677]   INFO - j.ide.ui.OptionsTopHitProvider - 125 ms spent to cache options in project 
+2018-02-14 18:21:35,018 [1097220]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2018-02-14 18:24:18,459 [1260661]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:24:18,993 [1261195]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:24:19,024 [1261226]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:24:19,024 [1261226]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:24:19,024 [1261226]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:24:20,755 [1262957]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 25; warnings: 0 took 2343 ms: 0 min 2sec 
+2018-02-14 18:24:20,771 [1262973]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:24:21,243 [1263445]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:24:21,290 [1263492]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:24:21,290 [1263492]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:24:21,290 [1263492]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:29:50,930 [1593132]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:29:50,930 [1593132]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:29:51,695 [1593897]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 27; warnings: 0 took 765 ms: 0 min 0sec 
+2018-02-14 18:29:51,710 [1593912]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:29:52,198 [1594400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:29:52,245 [1594447]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:29:52,245 [1594447]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:29:52,245 [1594447]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:31:51,982 [1714184]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:31:51,982 [1714184]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:31:53,230 [1715432]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1263 ms: 0 min 1sec 
+2018-02-14 18:31:53,246 [1715448]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:31:53,802 [1716004]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:31:53,849 [1716051]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:31:53,849 [1716051]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:31:53,849 [1716051]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:45:27,647 [2529849]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:45:27,647 [2529849]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:45:28,537 [2530739]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 5; warnings: 0 took 905 ms: 0 min 0sec 
+2018-02-14 18:45:28,552 [2530754]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:45:29,008 [2531210]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:45:29,054 [2531256]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:45:29,054 [2531256]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:45:29,054 [2531256]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:47:03,628 [2625830]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:47:03,628 [2625830]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:47:04,891 [2627093]   INFO - .server.BuildMessageDispatcher - An existing connection was forcibly closed by the remote host 
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-14 18:47:04,891 [2627093]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1263 ms: 0 min 1sec 
+2018-02-14 18:47:04,907 [2627109]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:47:05,391 [2627593]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:47:05,438 [2627640]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:47:05,438 [2627640]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:47:05,438 [2627640]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:51:07,822 [2870024]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:51:07,824 [2870026]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:51:09,171 [2871373]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1355 ms: 0 min 1sec 
+2018-02-14 18:51:09,195 [2871397]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:51:09,719 [2871921]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:51:09,782 [2871984]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:51:09,782 [2871984]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:51:09,782 [2871984]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:56:05,183 [3167385]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:56:05,183 [3167385]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:56:06,672 [3168874]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1488 ms: 0 min 1sec 
+2018-02-14 18:56:06,698 [3168900]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:56:07,529 [3169731]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:56:07,589 [3169791]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:56:07,589 [3169791]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:56:07,589 [3169791]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:56:38,723 [3200925]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:56:38,759 [3200961]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:56:41,182 [3203384]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2469 ms: 0 min 2sec 
+2018-02-14 18:56:41,227 [3203429]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:56:41,961 [3204163]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:56:42,027 [3204229]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:56:42,027 [3204229]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:56:42,027 [3204229]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 18:57:01,077 [3223279]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 18:57:01,079 [3223281]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 18:57:03,216 [3225418]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2172 ms: 0 min 2sec 
+2018-02-14 18:57:03,229 [3225431]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 18:57:04,080 [3226282]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 18:57:04,135 [3226337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 18:57:04,135 [3226337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 18:57:04,135 [3226337]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:03:30,959 [3613161]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:03:30,960 [3613162]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:03:32,993 [3615195]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:03:32,993 [3615195]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1967 ms: 0 min 1sec 
+2018-02-14 19:03:33,943 [3616145]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:03:34,057 [3616259]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:03:34,057 [3616259]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:03:34,057 [3616259]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:03:44,062 [3626264]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:03:44,063 [3626265]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:03:46,256 [3628458]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2210 ms: 0 min 2sec 
+2018-02-14 19:03:46,284 [3628486]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:03:47,064 [3629266]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:03:47,125 [3629327]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:03:47,126 [3629328]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:03:47,126 [3629328]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:03:58,291 [3640493]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:03:58,322 [3640524]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:04:00,121 [3642323]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1846 ms: 0 min 1sec 
+2018-02-14 19:04:00,152 [3642354]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:04:01,339 [3643541]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:04:01,391 [3643593]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:04:01,391 [3643593]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:04:01,391 [3643593]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:06:04,497 [3766699]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:06:04,672 [3766874]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:06:06,121 [3768323]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 1; warnings: 0 took 1639 ms: 0 min 1sec 
+2018-02-14 19:06:06,142 [3768344]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:06:06,708 [3768910]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:06:06,786 [3768988]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:06:06,786 [3768988]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:06:06,786 [3768988]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:16:30,334 [4392536]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:16:30,349 [4392551]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:16:32,435 [4394637]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2115 ms: 0 min 2sec 
+2018-02-14 19:16:32,447 [4394649]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:16:33,242 [4395444]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:16:33,301 [4395503]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:16:33,302 [4395504]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:16:33,302 [4395504]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:16:44,535 [4406737]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:16:44,536 [4406738]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:16:45,074 [4407276]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 548 ms: 0 min 0sec 
+2018-02-14 19:16:45,085 [4407287]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:16:45,913 [4408115]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:16:45,982 [4408184]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:16:45,982 [4408184]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:16:45,982 [4408184]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:25:11,048 [4913250]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:25:11,049 [4913251]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:25:12,399 [4914601]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 2; warnings: 0 took 1358 ms: 0 min 1sec 
+2018-02-14 19:25:12,424 [4914626]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:25:12,990 [4915192]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:25:13,048 [4915250]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:25:13,048 [4915250]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:25:13,048 [4915250]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:25:23,068 [4925270]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:25:23,069 [4925271]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:25:25,178 [4927380]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:25:25,180 [4927382]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 2090 ms: 0 min 2sec 
+2018-02-14 19:25:25,892 [4928094]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:25:25,948 [4928150]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:25:25,948 [4928150]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:25:25,948 [4928150]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:26:49,593 [5011795]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:26:49,631 [5011833]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:26:51,446 [5013648]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1877 ms: 0 min 1sec 
+2018-02-14 19:26:51,462 [5013664]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:26:52,194 [5014396]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:26:52,252 [5014454]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:26:52,252 [5014454]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:26:52,252 [5014454]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:27:41,191 [5063393]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:27:41,216 [5063418]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:27:42,935 [5065137]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:27:42,935 [5065137]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1753 ms: 0 min 1sec 
+2018-02-14 19:27:43,718 [5065920]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:27:43,806 [5066008]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:27:43,806 [5066008]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:27:43,806 [5066008]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 19:51:29,179 [6491381]   INFO - plication.impl.ApplicationImpl - Received external Windows command line: current directory C:\Windows\system32, command line "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.3.2\bin\idea.exe" "C:\Users\dmonroe\AppData\Local\Temp\Temp1_HW1-master.zip\HW1-master\README.md" 
+2018-02-14 19:51:29,241 [6491443]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2018-02-14 19:51:29,241 [6491443]   INFO - ellij.ide.CommandLineProcessor - Dir: C:\Windows\system32 
+2018-02-14 19:51:29,241 [6491443]   INFO - ellij.ide.CommandLineProcessor - "C:\Users\dmonroe\AppData\Local\Temp\Temp1_HW1-master.zip\HW1-master\README.md" 
+2018-02-14 19:51:29,241 [6491443]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2018-02-14 19:52:33,756 [6555958]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2018-02-14 19:52:33,756 [6555958]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\dmonroe\IdeaProjects\Project Uno HW1 
+2018-02-14 19:52:35,644 [6557846]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 1903 ms: 0 min 1sec 
+2018-02-14 19:52:35,659 [6557861]   INFO - s.CompilerReferenceServiceImpl - backward reference index reader is opened 
+2018-02-14 19:52:36,523 [6558725]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_152/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.3.2/lib/optimizedFileManager.jar 
+2018-02-14 19:52:36,586 [6558788]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2018-02-14 19:52:36,586 [6558788]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2018-02-14 19:52:36,586 [6558788]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2018-02-14 20:06:27,518 [7389720]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-02-14 20:06:27,518 [7389720]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-02-14 20:06:27,518 [7389720]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-02-14 20:06:27,596 [7389798]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-02-14 20:06:27,596 [7389798]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-02-14 20:06:27,628 [7389830]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2018-02-14 20:06:27,628 [7389830]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-02-14 20:06:27,628 [7389830]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-02-14 20:06:27,690 [7389892]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-02-14 20:06:27,721 [7389923]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-02-14 20:06:27,721 [7389923]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
