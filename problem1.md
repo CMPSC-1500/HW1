@@ -14,18 +14,22 @@ There happen to have an index file of all the file names.  Your friend is willin
 
 They are asking you to find all file names that contain exactly one of the names of the races, and print them to the screen so they can find them.
 
-Here is a small sampling of the list of races:
+Here is a small version of the index file (Note the number on the first line that says how many files there are to consider):
 
-* 2014_Mud-run_for_fun.xml
-* Spartan_run_in_the_Mud.doc
-* Boston-Marathon_2019
-* Bun_Run_In_The_Sun.pdf
-
+~~~
+4
+2014_Mud-run_for_fun.xml
+Spartan_run_in_the_Mud.doc
+Boston-Marathon_2019
+Bun_Run_In_The_Sun.pdf
+~~~
 
 Result for these file names:
 
-* 2014_Mud-run_for_fun.xml
-* Boston-Marathon_2019
+~~~
+2014_Mud-run_for_fun.xml
+Boston-Marathon_2019
+~~~
 
 ## What to have in your answer:
 * A file that has your program in it that can be compiled.   It should be named: <class name>.java
