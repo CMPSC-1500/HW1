@@ -1,0 +1,14 @@
+test 1
+You have 5 groups and 4 Kid(s) left over
+
+test 2
+You have 4 groups and 0 Kid(s) left over
+
+test 3
+You have 6 groups and 4 Kid(s) left over
+
+test 4
+You have 7 groups and 0 Kid(s) left over
+
+test 5
+You have 5 groups and 0 Kid(s) left over
