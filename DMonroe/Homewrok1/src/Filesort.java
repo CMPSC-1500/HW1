@@ -19,7 +19,8 @@ public class Filesort {
              String wBoston = "Boston";
              String wSpartan = "Spartan";
              String wMud = "Mud";
-             //i figured out the if else statement without the &&! alex helped me come up with the if else to get only one key word//
+             //Alex kerr told me about the phrase.contain command//
+           // i figured out the if else statement without the &&! alex helped me come up with the if else to get only one key word//
 
             if (phrase.contains(wBunRun)&&! phrase.contains(wBoston)&&!phrase.contains(wMud)&&!phrase.contains(wSpartan)&&!phrase.contains(wZombie))
            {System.out.println(arrayOfFiles[i]);}
