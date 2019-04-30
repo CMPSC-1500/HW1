@@ -1,0 +1,13 @@
+Look at the first name. 
+
+Use the first letter of the first name.
+
+Look at the next letter of the first name. 
+Alphabetically, if that letter comes before the first letter of the last name:
+	Yes-- print that letter then move to next letter of first name
+		Loop to "Look at the next letter of the first name"
+	No-- print the last name only using 7 characters or less.
+
+Then move on to the next person and start over loop beginning at using the first letter of the first name.
+
+One of the loops will include looking at the first name and the last name of each person, then moving on to the next person.

@@ -1,0 +1,2 @@
+Someone made a group that's too big. 6 full groups can be formed, and 6 students will still need a group, excluding
+the too big group.

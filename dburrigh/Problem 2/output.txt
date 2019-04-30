@@ -1,0 +1,5 @@
+Example 1:
+groups of 3 = 4, and 2 students will still need a group
+
+Example 2:
+groups of 3 = 3, and 2 students will still need a group

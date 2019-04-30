@@ -1,0 +1,4 @@
+aaabcdef
+aaaabcde
+dcddccbb
+zddccbbb

@@ -1,0 +1,40 @@
+
+Problem 2 Process:
+
+
+? Locate all groups of three. 
+
+Add this total to a running total of how many groups there can be.
+
+
+? If the number of singles > the number of doubles,
+
+
+(-- Find all groups of 1. 
+
+Match each single up with a group of 2 to create a trio.
+
+Add this trio to the running sum.
+
+Pair up any remaining singles. --)
+
+
+? If the number of singles < the number of doubles, 
+
+
+(-- Find all groups of 2.
+
+Match up a single with a group of 2 to create a trio.
+
+Add this trio to the running sum.
+
+Pair up any remaining singles. --)
+
+
+? Count the remaining students not in a group of 3. 
+
+    This is your remainder.
+
+
+? Print total number of trios and the remainder.
+

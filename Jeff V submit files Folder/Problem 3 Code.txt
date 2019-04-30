@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Problem3 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int numberOfNames = sc.nextInt();
+
+
+        for (int i = 0; i < numberOfNames; i++) {
+            String firstName = sc.next();
+            firstName = firstName.toLowerCase();
+            String userName = "";
+            int firstNameLength = firstName.length();
+            String lastName = sc.next();
+            lastName = lastName.toLowerCase();
+            int lastNameLength = lastName.length();
+            boolean onLastName = false;
+
+            int lastNameLetter = 0;
+
+            for (int a = 0; a < 8 ; a++) {
+
+
+                if (a < firstNameLength && firstName.charAt(a) <= lastName.charAt(0) && !onLastName)
+                {
+                    userName = userName + firstName.charAt(a);
+                }
+                else if (lastNameLetter < lastNameLength)
+                {
+                    userName = userName + lastName.charAt(lastNameLetter);
+                    onLastName = true;
+                    lastNameLetter++;
+                }
+            }
+            System.out.println(userName);
+        }
+    }
+}

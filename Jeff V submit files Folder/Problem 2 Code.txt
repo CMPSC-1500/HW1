@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class Problem2 {
+    public static void main(String args[]) {
+        //Piia helped me out by recommending against using arrays and using number totals instead
+        int workingNumber;
+        int numberOf2s = 0;
+        int numberOf1s = 0;
+        int numberOfGroups = 0;
+        //pull the stuff from the teacher
+        Scanner input = new Scanner(System.in);
+        workingNumber = input.nextInt();
+
+        //this while sorts all the groups
+        while (workingNumber != 0 )
+        {
+            if (workingNumber == 3) {
+                numberOfGroups++;
+            }
+
+            else if ( workingNumber == 1 ){
+                numberOf1s++;
+            }
+
+            else if ( workingNumber == 2 ) {
+                numberOf2s++;
+            }
+
+            else if (workingNumber >= 4) {
+                System.out.print("Someone made a group too big");
+            }
+            workingNumber = input.nextInt();
+        }
+
+        if (numberOf1s > numberOf2s) {
+            numberOfGroups = numberOfGroups + numberOf2s;
+            numberOf1s = numberOf1s - numberOf2s;
+            numberOf2s = 0;
+        }
+        else if (numberOf1s < numberOf2s){
+            numberOfGroups = numberOfGroups + numberOf1s;
+            numberOf2s = numberOf2s - numberOf1s;
+            numberOf1s = numberOf1s - numberOf1s; //NUMBER OF OOOOOONNNNEEESSSSSSSS!!!!!!!!
+        }
+
+        if (numberOf1s / 3 >= 1){
+            numberOfGroups = numberOfGroups + (numberOf1s / 3);
+            numberOf1s = numberOf1s - numberOf1s / 3;
+        }
+
+        System.out.println( numberOfGroups + " full groups can be formed, and " + (numberOf2s * 2 + numberOf1s) + " students will still need a group, excluding" +
+                " the group thats too big." );
+        //number of threes added to the number of groups
+
+        //how many 1s and 2s are there?
+
+
+        //is the number of 1's more than 3? combine them
+
+
+        // are there pairable 1s and 2s
+
+
+
+    }
+}

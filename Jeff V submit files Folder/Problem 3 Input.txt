@@ -1,0 +1,5 @@
+4
+aabbccdd abcdefghi
+aaabbbcccddd abcdef
+dcba ddccbbaa
+ddccbbbbAAAAAAAAAAAAHHHHHHHH!

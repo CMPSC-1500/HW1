@@ -1,0 +1,70 @@
+import.java.util.Scanner;
+
+public class fileScanner {
+    public static void main(String args[]) {
+    
+    Scanner reader = new Scanner(System.in);  // Reading from System.in
+System.out.println("Enter a number: ");
+int n = reader.nextInt(); // Scans the next token of the input as an int.
+//once finished
+reader.close();
+
+    // start
+    int number, steps = 0;
+    
+    // read a number
+    Scanner input = new Scanner (System.in);
+    number = input.nextInt();
+    boolean = numberNotEqualToOne = (number != 1)
+    
+    
+    // if number == 1 print the number of steps
+    while (numberNotEqualToOne )
+    {
+        
+        if (number == 1)
+        {
+            numberNotEqualToOne = false;
+            
+            System.out.pringln( "It took " + steps + " steps to get to 1 for the number " + number);
+        
+        }
+    
+        // else
+        else
+        {
+            steps = steps + 1
+        int tempNumber = 1;
+        boolean isDivisibleBy2 = false;
+		
+		    
+        // this while loop if the number is divisible by 2
+        while ( tempNumber * 2 != number && tempnumber < number)
+        {
+            tempNumber = tempNumber + 1;
+            if (tempNumber * 2 == number)
+            {
+                isDivisibleBy2 = true;    
+            }
+        }
+    
+        // if the number is a multiple of 2
+        if ( isDivisibleBy2 )
+        {
+            //divide the number by 2
+            number = number/2;
+          
+        }
+    
+                // else 
+                else
+                {
+                //multiply number by 3 and add 1
+                number = number * 3 + 1;
+                }
+        }
+        
+    // loop up to the first if
+    
+    }
+}
