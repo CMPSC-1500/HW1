@@ -1,0 +1,27 @@
+Problem3
+
+Start
+
+int numberOfNames;
+String userName;
+
+Scanner input = new Scanner(System.in);
+numberOfPeople = input.nextInt();
+
+input.nextLine();
+
+Now we want to loop through a list of names
+
+For each name we want to have the first letter of the first name and the first letter of the last name amongst the 8 character username.
+We will have a loop that will start with the first person, get their username, then loop back up to get to start on the second person.
+Within that loop, we will start by taking the first letter of the first name.
+Next, we will have another loop. 
+In this loop, we will take the next letter of the first name and compare it to the first letter of the last name.
+There will be a boolean command set up here.
+For this boolean, if the first letter of the last name comes before the next letter in the first name, then add the last name or atleast until 8 characters have been used.
+If not, then use the next letter of the first name and then loop back up to the boolean command and compare the next letter with the first letter of the last name. 
+Once the last name is used, end this loop.
+Once the username has been made, print the username.
+Now go up to the first for and begin finding the username for the next person.
+Once all the people have a username, end the loop.
+Now print all the usernames.
